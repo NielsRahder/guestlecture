@@ -1,5 +1,5 @@
 ### Q6 ###
-## Provide a list of all electric vehicle models offered by each car brand?
+## Provide a list of all electric vehicle models offered by each car brand
 ## Aggregate the results to avoid duplicating the 'Make' column.
 
 import pandas as pd
