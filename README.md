@@ -1,6 +1,16 @@
 # Guestlecture for TiU
 
 Students in the guestlecture are expected to first download the data via the `download.py` file after which the data can be explored via the `explore.py` file. 
+
+Before you start, make sure you have the right requirements installed:
+
+_Best practice is to do this in virtual enviroment_
+`pip install -r requirements.txt`
+
+To access the data, use these commands:
+Car data = `select * from cars`
+Ticket data = `select * from tickets`
+
 Subsequently the following questions can be answered: 
 
 - *Q1* Return the top 5 car brands with the highest average Electric Range
