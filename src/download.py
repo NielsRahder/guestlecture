@@ -7,7 +7,7 @@ import os
 cars_url = 'https://data.wa.gov/api/views/f6w7-q2d2/rows.csv?accessType=DOWNLOAD'
 ticket_url = 'https://corgis-edu.github.io/corgis/datasets/csv/parking_citations/parking_citations.csv'
 
-directory_path = os.path.join(os.getcwd(), 'data')
+directory_path = os.path.join(os.getcwd(), '../data')
 
 cars_file_path = os.path.join(directory_path, 'cars_data.csv')
 ticket_file_path = os.path.join(directory_path, 'ticket_data.csv')

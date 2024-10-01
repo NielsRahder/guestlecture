@@ -2,8 +2,8 @@ import pandas as pd
 import os
 
 # Define the paths to the CSV files
-cars_file_path = os.path.join('data', 'cars_data.csv')
-ticket_file_path = os.path.join('data', 'ticket_data.csv')
+cars_file_path = os.path.join('../data', 'cars_data.csv')
+ticket_file_path = os.path.join('../data', 'ticket_data.csv')
 
 # Function to load the selected dataset
 def load_dataset(dataset_choice):

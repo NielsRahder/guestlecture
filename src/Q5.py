@@ -6,7 +6,7 @@ import os
 import sqlite3
 
 # Define the path to the SQLite database
-db_file_path = os.path.join('data', 'example.db')
+db_file_path = os.path.join('../data', 'example.db')
 
 # Connect to the SQLite database
 conn = sqlite3.connect(db_file_path)
