@@ -12,12 +12,7 @@ conn = sqlite3.connect(db_file_path)
 
 # Your SQL query goes here
 query = """
-SELECT COUNT(*), Make
-FROM cars
-WHERE (CAFV_Eligibility = 'Clean Alternative Fuel Vehicle Eligible' AND EV_Range <= 300)
-    OR (CAFV_Eligibility = 'Not eligible due to low battery range' AND EV_Range > 300)
-    GROUP BY Make
-    ORDER by COUNT(*) DESC
+Your answer goes here
 """
 
 #output results

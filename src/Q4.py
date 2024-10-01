@@ -13,11 +13,7 @@ conn = sqlite3.connect(db_file_path)
 
 # Your SQL query goes here
 query = """
-SELECT Violation, COUNT(*) as violation_count
-FROM tickets
-WHERE Location LIKE '%Road%'
-GROUP BY Violation
-ORDER BY violation_count DESC
+Your answer goes here
 """
 
 #output results 

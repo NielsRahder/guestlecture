@@ -11,11 +11,7 @@ conn = sqlite3.connect(db_file_path)
 
 # Your SQL query goes here
 query = """
-SELECT Month, SUM(fine) as total_fine
-FROM tickets
-GROUP BY Month
-ORDER BY total_fine DESC
-LIMIT 1
+Your answer goes here
 """
 
 #output results
