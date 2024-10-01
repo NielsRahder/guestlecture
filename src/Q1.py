@@ -11,13 +11,7 @@ conn = sqlite3.connect(db_file_path)
 
 # Your SQL query goes here
 query = """
-SELECT 
-    Make AS Car_Brand,
-    AVG(EV_Range) AS Average_Electric_Range
-FROM cars
-GROUP BY Car_Brand
-ORDER BY AVG(EV_Range) DESC
-LIMIT 5
+Your answer goes here
 """
 
 #output results 

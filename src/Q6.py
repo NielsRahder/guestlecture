@@ -14,10 +14,7 @@ conn = sqlite3.connect(db_file_path)
 
 # Your SQL query goes here
 query = """
-SELECT Make, GROUP_CONCAT(DISTINCT Model ORDER BY Model ASC) AS Models
-FROM cars
-GROUP BY Make
-ORDER BY Make ASC
+Your answer goes here
 """
 
 #output results 
